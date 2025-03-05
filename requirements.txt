@@ -1,0 +1,20 @@
+# Core Dependencies
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+# Database & SQLAlchemy
+SQLAlchemy
+psycopg2-binary
+
+# Google Gemini AI SDK
+google-generativeai
+
+# LangChain & LLMs
+langchain
+langchain-core
+langchain-community
+
+# Additional Utilities
+numpy

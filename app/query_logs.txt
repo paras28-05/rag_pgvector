@@ -1,0 +1,136 @@
+2025-02-12 11:06:35,515 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:06:35,609 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:06:35,609 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:06:39,504 - INFO - \u2705 VectorStore Initialized.
+2025-02-12 11:06:39,504 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:07:11,757 - INFO - \U0001f50d Incoming API Request - Query: what are the shipping options available?
+2025-02-12 11:07:11,757 - INFO - \U0001f50d Searching similar vectors for: what are the shipping options available?
+2025-02-12 11:07:11,757 - INFO - \U0001f50d Generating embedding for: what are the shipping options available?
+2025-02-12 11:07:14,457 - INFO - \u2705 Embedding successfully generated.
+2025-02-12 11:07:16,677 - ERROR - \u274c Error executing search: (psycopg2.errors.UndefinedFunction) operator does not exist: vector <=> numeric[]
+LINE 4:                 ORDER BY embedding <=> ARRAY[ -0.007364131, ...
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: 
+                SELECT id, category, content
+                FROM faq_embeddings
+                ORDER BY embedding <=> %(embedding)s
+                LIMIT 1;
+            ]
+[parameters: {'embedding': [-0.007364131, -0.013879376, -0.006275958, -0.018015983, -0.0076883323, -0.0047716885, 0.008744824, -0.007310352, -0.0011217757, 0.040777568, 0.014259 ... (9988 characters truncated) ... 0.026762104, -0.0025104547, 0.033914816, -0.058120403, 0.05801376, -0.020283423, 0.0032496855, -0.0854428, -0.0045707026, 0.0016402684, -0.0041267704]}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-12 11:07:16,677 - INFO - \U0001f50d Synthesizing response for: what are the shipping options available?
+2025-02-12 11:14:18,994 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:14:19,042 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:14:19,042 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:14:21,025 - INFO - \u2705 VectorStore Initialized.
+2025-02-12 11:14:21,025 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:19:56,295 - INFO - \U0001f50d Incoming API Request - Query: what are the shipping options available?
+2025-02-12 11:19:56,295 - INFO - \U0001f50d Searching similar vectors for: what are the shipping options available?
+2025-02-12 11:19:56,295 - INFO - \U0001f50d Generating embedding for: what are the shipping options available?
+2025-02-12 11:19:58,504 - INFO - \u2705 Embedding successfully generated.
+2025-02-12 11:20:00,714 - ERROR - \u274c Error executing search: (psycopg2.errors.UndefinedFunction) operator does not exist: vector <=> numeric[]
+LINE 4:                 ORDER BY embedding <=> ARRAY[ -0.007364131, ...
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: 
+                SELECT id, category, content
+                FROM faq_embeddings
+                ORDER BY embedding <=> %(embedding)s
+                LIMIT 1;
+            ]
+[parameters: {'embedding': [-0.007364131, -0.013879376, -0.006275958, -0.018015983, -0.0076883323, -0.0047716885, 0.008744824, -0.007310352, -0.0011217757, 0.040777568, 0.014259 ... (9988 characters truncated) ... 0.026762104, -0.0025104547, 0.033914816, -0.058120403, 0.05801376, -0.020283423, 0.0032496855, -0.0854428, -0.0045707026, 0.0016402684, -0.0041267704]}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-12 11:20:00,714 - INFO - \U0001f50d Synthesizing response for: what are the shipping options available?
+2025-02-12 11:21:12,439 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:21:12,489 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:21:12,489 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:21:14,445 - INFO - \u2705 VectorStore Initialized.
+2025-02-12 11:21:14,446 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:21:18,775 - INFO - \U0001f50d Incoming API Request - Query: what are the shipping options available?
+2025-02-12 11:21:18,775 - INFO - \U0001f50d Searching similar vectors for: what are the shipping options available?
+2025-02-12 11:21:18,775 - INFO - \U0001f50d Generating embedding for: what are the shipping options available?
+2025-02-12 11:21:20,940 - INFO - \u2705 Embedding successfully generated.
+2025-02-12 11:21:23,103 - ERROR - \u274c Error executing search: (psycopg2.errors.UndefinedFunction) operator does not exist: vector <=> numeric[]
+LINE 4:                 ORDER BY embedding <=> ARRAY[ -0.007364131, ...
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: 
+                SELECT id, category, content
+                FROM faq_embeddings
+                ORDER BY embedding <=> %(embedding)s
+                LIMIT 1;
+            ]
+[parameters: {'embedding': [-0.007364131, -0.013879376, -0.006275958, -0.018015983, -0.0076883323, -0.0047716885, 0.008744824, -0.007310352, -0.0011217757, 0.040777568, 0.014259 ... (9988 characters truncated) ... 0.026762104, -0.0025104547, 0.033914816, -0.058120403, 0.05801376, -0.020283423, 0.0032496855, -0.0854428, -0.0045707026, 0.0016402684, -0.0041267704]}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-12 11:21:23,104 - INFO - \U0001f50d Synthesizing response for: what are the shipping options available?
+2025-02-12 11:21:23,104 - INFO - \u2705 Response successfully generated.
+2025-02-12 11:21:23,104 - INFO - \u2705 API Response Sent for: what are the shipping options available?
+2025-02-12 11:22:02,845 - INFO - \U0001f50d Incoming API Request - Query: what are the shipping options available?
+2025-02-12 11:22:02,846 - INFO - \U0001f50d Searching similar vectors for: what are the shipping options available?
+2025-02-12 11:22:02,846 - INFO - \U0001f50d Generating embedding for: what are the shipping options available?
+2025-02-12 11:22:03,318 - INFO - \u2705 Embedding successfully generated.
+2025-02-12 11:22:03,372 - ERROR - \u274c Error executing search: (psycopg2.errors.UndefinedFunction) operator does not exist: vector <=> numeric[]
+LINE 4:                 ORDER BY embedding <=> ARRAY[ -0.007364131, ...
+                                           ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: 
+                SELECT id, category, content
+                FROM faq_embeddings
+                ORDER BY embedding <=> %(embedding)s
+                LIMIT 1;
+            ]
+[parameters: {'embedding': [-0.007364131, -0.013879376, -0.006275958, -0.018015983, -0.0076883323, -0.0047716885, 0.008744824, -0.007310352, -0.0011217757, 0.040777568, 0.014259 ... (9988 characters truncated) ... 0.026762104, -0.0025104547, 0.033914816, -0.058120403, 0.05801376, -0.020283423, 0.0032496855, -0.0854428, -0.0045707026, 0.0016402684, -0.0041267704]}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-02-12 11:22:03,373 - INFO - \U0001f50d Synthesizing response for: what are the shipping options available?
+2025-02-12 11:22:03,373 - INFO - \u2705 Response successfully generated.
+2025-02-12 11:22:03,373 - INFO - \u2705 API Response Sent for: what are the shipping options available?
+2025-02-12 11:26:36,025 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:26:36,072 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:26:36,073 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:26:38,033 - ERROR - \u274c Error initializing VectorStore: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-02-12 11:26:42,577 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:26:42,621 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:26:42,622 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:26:44,435 - ERROR - \u274c Error initializing VectorStore: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-02-12 11:27:17,127 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:27:17,168 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:27:17,169 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:27:18,833 - ERROR - \u274c Error initializing VectorStore: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-02-12 11:27:25,588 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:27:25,630 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:27:25,630 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:27:27,346 - ERROR - \u274c Error initializing VectorStore: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-02-12 11:28:05,527 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:28:05,568 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:28:05,569 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:28:07,278 - ERROR - \u274c Error initializing VectorStore: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-02-12 11:30:31,046 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:30:31,090 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:30:31,090 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:30:34,891 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:30:34,891 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:32:20,875 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:32:20,920 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:20,920 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:32:24,778 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:24,778 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:32:29,537 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:32:29,579 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:29,579 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:32:33,409 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:33,410 - INFO - \U0001f680 FastAPI Server Initialized.
+2025-02-12 11:32:41,092 - INFO - \U0001f680 Logging Initialized.
+2025-02-12 11:32:41,135 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:41,136 - INFO - \u2705 Gemini API Config Loaded.
+2025-02-12 11:32:44,882 - INFO - \u2705 Database connection established successfully.
+2025-02-12 11:32:44,882 - INFO - \U0001f680 FastAPI Server Initialized.
